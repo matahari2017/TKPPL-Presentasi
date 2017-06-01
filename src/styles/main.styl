@@ -6,3 +6,139 @@
 
 @import 'prism/themes/prism-okaidia.css'
 // Check out "bower_components/prism/themes/" for available themes
+
+
+// ========================= Navigasi Bar ========================= // 
+.navbar-fixed-top 
+{
+    background : url(../images/galaxy.jpg)
+    box-shadow : 0px 1px 4px  1px black
+}
+
+.navbar-fixed-top .nav 
+{
+    padding: 5px;
+}
+
+.navbar-fixed-top .navbar-brand 
+{
+    padding: 0px;
+}
+
+@media(min-width:768px) 
+{
+    body 
+    {
+        padding-top: 100px; 
+    }
+
+    .navbar-fixed-top .navbar-brand 
+    {
+        padding: 10px 0;
+    }
+}
+
+.navbar-nav > li > a 
+{
+	color : #f9404d;
+	margin-top : 7px;
+	margin-left : 10px;	
+	font-size : 20pt;
+	font-weight : bold;
+	font-family : sketchflow print;
+	text-shadow : 2px 2px 2px white;
+}
+
+.navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus 
+{
+	background-color : transparent;
+    color : #ffffff;
+    text-decoration : underline;
+    text-shadow : 3px 3px 6px red;
+}
+
+.glyphicon 
+{
+	font-size : 25pt;
+	color : white;
+	margin-top : 20px;
+	float : right;
+	margin-right : 8px;
+	text-shadow : 3px 2px 5px navy;
+}
+
+// ========================= SLIDE #1 ========================= //
+section#slide1, section#slide2
+	background : url(../images/galaxy.jpg)
+	background-position : center 
+	border-radius : 5px
+
+.jdl 
+	color : navy
+	font-family : gabriola
+	font-size : 50pt
+	text-shadow: 2px 2px 4px white
+	text-decoration : underline
+	margin-top : 100px 
+
+.jdl2
+	color : white
+	text-shadow : 3px 3px 3px navy
+	text-align : center
+	font-size : 17pt
+	
+.logo
+	margin : 40px
+	width : 150px
+	height : @width
+	border-radius : 50%
+
+	transition: 0.5s all
+
+.logo:hover
+	border : 2px solid white
+	border-top : 5px solid navy
+	border-top-style : dotted
+	border-bottom : 5px solid navy
+	border-bottom-style : dotted
+	transform: rotate(360deg) scale(1.3)
+	box-shadow :  0 0px 6px rgba(0,0,0,.5)
+
+// ========================= SLIDE #2 ========================= //
+.tim 
+	margin-top : 40px
+	color : blue
+	font-family : gabriola
+	font-size : 30pt
+	letter-spacing : 2px
+	text-decoration : underline
+	text-shadow: 1px 0px #ccc, 0px 1px #ccc, 2px 1px #ddd, 1px 2px #bbb, 3px 2px #ddd, 2px 3px #bbb, 4px 3px #ddd, 3px 4px #bbb, 5px 4px #ddd, 
+				 4px 5px #bbb, 6px 5px #ddd, 5px 6px #bbb, 7px 6px #ddd, 6px 7px blue, 8px 7px #ddd, 7px 8px #bbb, 8px 8px #ddd
+
+.row
+	text-align : right
+	color : white
+	text-shadow : 1px 2px 5px blue 
+
+.edu
+	color : navy
+	font-weight : bold
+	font-family : comic sans ms
+	font-size : 17pt
+	margin-top : 15px
+
+.logox 
+	margin-top : 10px
+	box-shadow: 0 3px 6px rgba(0,0,0,.25)
+	transform:  rotate(+2deg)
+	width : 100px
+	height : @width
+	border-radius : 50%
+
+	transition: 0.5s all
+
+.logox:hover
+	border : 2px solid white
+	transform: rotate(360deg) scale(1.3)
+	box-shadow :  0 0px 6px rgba(0,0,0,.5)
+

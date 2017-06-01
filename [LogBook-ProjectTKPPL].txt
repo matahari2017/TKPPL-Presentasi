@@ -1,0 +1,85 @@
+***===***===***===***===***===***===***===***===***===***===***===***===***
+INFORMASI UMUM
+
+Nama Kelompok 	: X-Red Tim
+Judul Topik	: Teknologi Drone
+Alamat Github	: https://github.com/matahari2017/TKPPL-Presentasi
+Alamat Trello	: https://trello.com/b/GsGKroP8/presentasi-tkppl-project
+
+Nama - nama Kelompok
+1. 15.111.3411		[BEZARO GEA]		=====> SCRUM MASTER <=====
+2. 15.111.2173		[HANA GIRSANG]		=====>    ANGOOTA   <=====
+3. 15.111.0784		[NOEL ANUGERAH TEL]	=====>    ANGOOTA   <=====
+
+***===***===***===***===***===***===***===***===***===***===***===***===***
+
+------------
+:: SPRINT ::
+------------
+
+20 Mei - 10 Juni  
+Sprint 1 
+	> Scrummaster : BEZARO GEA (15.111.3411)
+	  - Pembuatan repository global di https://github.com
+	  - Commit pertama
+
+Sprint 2
+	> Scrummaster : HANA GIRSANG (15.111.2173)
+	  - Mencari bahan presentasi di internet
+	  
+Sprint 3
+	> Scrummaster : NOEL ANUGERAH TELAUMBANUA (15.111.0784)
+	  - Merapikan code yang ada pada index.jade serta isi folder utama 
+	    dari file repository utama
+	  - Memperindah tampilan slide index.jade dengan mencoba code- code
+	    bootstrap
+
+
+-------------------
+:: DAILY SCRUM 1 ::
+-------------------
+23 Mei 
+[Bezaro Gea]
+	1. Men-commit pertama kali pada repository utama di github
+
+24 Mei 
+[Bezaro Gea]
+	1. Mengubah judul presentasi {Judul : Smart Phone}
+
+[Noel Anugerah Tel]
+	1. Merekomendasikan terhadap tim untuk perubahan judul presentasi
+
+26 Mei
+[Noel Anugerah Tel]
+	1. Mengganti judul presentasi serta mengupdate pada repository utama
+
+[Bezaro Gea]
+	1. Mengupdate materi dari slide presentasi 
+	   {jenis - jenis drone beserta gambarnya}  
+
+28 Mei
+[Bezaro Gea]
+	1. Mengupdate materi dari slide presentasi #2
+
+29 Mei
+[Bezaro Gea]
+	1. Mengupdate materi dari slide presentasi #3
+
+[Hana Girsang]
+	1. Mengganti warna font di slide presentasi
+	2. Mengedit bahan materi presentasi dan mengupdate pada repository utama
+
+30 Mei
+[Bezaro Gea]
+	1. Mengubah jenis-font pada judul presentasi
+	2. Mencoba "merge branch" dari file repository 
+	3. Mengupdate materi dari slide presentasi
+	   {kelebihan dan kekurangan drone}
+
+1 Juni 
+[Noel Anugerah Tel]
+	1. Merapikan code yang ada pada index.jade serta isi folder utama 
+	   dari file repository sebelumnya 
+	2. Mendesain tampilan slide {slide 1 & 2} presentasi dengan mencoba
+	   menggunakan code - code bootstrap
+
