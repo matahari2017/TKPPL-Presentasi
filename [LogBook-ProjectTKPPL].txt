@@ -83,3 +83,20 @@ Sprint 3
 	2. Mendesain tampilan slide {slide 1 & 2} presentasi dengan mencoba
 	   menggunakan code - code bootstrap
 
+2 - 3 Juni
+[Hana Girsang]
+	1. Mengupdate materi dari slide presentasi
+	   {Fungsi Drone}
+  	   {Cara Mengendalikan Drone}
+	   {Bagian dari Drone}
+
+[Bezaro Gea]
+	1. Mengupdate materi dari slide presentasi #3
+
+5 Juni
+[Noel Anugerah Tel]
+	1. Mencoba bereksperimen untuk mempercantik tampilan slide dengan 
+	   menggunakan code animasi css
+	2. Menambahkan fitur 'magnifier' untuk memperbesar [zoom] gambar
+	   saat mouse berada pada gambar
+

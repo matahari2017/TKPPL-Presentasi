@@ -8,230 +8,118 @@ html
 
     link(rel='stylesheet', type='text/css', href='build/build.css')
     link(rel='stylesheet', type='text/css', href='build/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='build/etalage.css')
+    link(rel='stylesheet', type='text/css', href='build/animate.css')
 
-  body
-
-    div
-      nav.navbar.navbar-fixed-top(role='navigation')
-        .container
+  body   
+  .container
+    .row
+      .navbar.navbar-inverse.navbar-fixed-top
+        .container-fluid
           .navbar-header
-            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
-              span.sr-only Toggle navigation
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-            a.navbar-brand
-              img(src='images/admin.png', style='width : 80px; height :60px')
+            span.glyphicon.glyphicon-star.star 
+            span.glyphicon.glyphicon-star.star
+            span.glyphicon.glyphicon-star.star 
+             
+            a.navbar-brand(href='#') X - 
+              span.red Red 
+              span.yellow TEAM
 
-          .collapse.navbar-collapse
-            ul.nav.navbar-nav
-              li
-                a(href='#') X-Red Tim
+          .navbar-collapse.collapse
+            ul.navbar-right.nav.navbar-nav
+              li.dropdown
+                a.dropdown-toggle(data-toggle='dropdown', href='#')
+                  span.glyphicon.glyphicon-check.glyphiconY
+                  |  File Presentasi
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='#3') Pengertian Drone 
+                  li
+                    a(href='#4') Jenis Drone
+                  li
+                    a(href='#') Slide 5
+                  li
+                    a(href='#') Slide 6
+                  li
+                    a(href='#') Slide 7
+                  li
+                    a(href='#') Slide 8
+                  li
+                    a(href='#') Slide 9
 
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
+      article
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          h2.jdl.animated.infinite.zoomIn TEKNOLOGI DRONE
 
-    article
+          div
+            span.glyphicon.glyphicon-facetime-video.glyphiconX 
+              span.jdl2 CAMERA 
 
-      section#slide1
-        h2.jdl Teknologi Drone
-        div.jdl2 | CAMERA |
-      
-        img.logo(src='images/drone.png')
+          img.logo(src='images/drone.png')
 
-      section#slide2
-        h2.tim Nama Anggota 
+        section.emphatic-text(data-bespoke-backdrop='emphatic') 
+          .container
+            .col.lg-8
+              .row
+                ul#etalage
+                  li
+                    img.etalage_thumb_image(src='./images/@bezaro.jpg')
+                    img.etalage_source_image(src='./images/@bezaro.jpg') 
+                  li
+                    img.etalage_thumb_image(src='./images/@hana.jpg')
+                    img.etalage_source_image(src='./images/@hana.jpg') 
+                  li
+                    img.etalage_thumb_image(src='./images/@noel.jpg')
+                    img.etalage_source_image(src='./images/@noel.jpg') 
 
-        .container
-          .row
-            .col-lg-4
-                .row Bezaro Gea [15.111.3411]
-                br
-                .row Hana Girsang [15.111.2173]
-                br
-                .row Noel Anugerah Telaumbanua [15.111.0784]
-                br
+          div.sideright Nama Anggota
+            h2.tim Bezaro Gea [15.111.3411]
+            
+            h2.tim Hana Girsang [15.111.2173]
+            
+            h2.tim Noel Anugerah Telaumbanua [15.111.0784]
 
-        img.logox(src='images/mikroskil.jpg')
-        row.edu 2017
+          row.edu 2017
+                    
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          h3.jdl3.animated.infinite.flash Pengertian Drone
+          
+          img.img-responsive(src='images/dronex.gif') 
+          
+          span.par1 Drone [Helicam] adalah sebuah alat unik yang bisa memotret atau merekam gambar dari ketinggian maksimal 11.000 kaki, karena alat ini memang bisa terbang. Prinsip alat ini menggunakan kamera Canon 7D DSLR, selain itu alat ini juga di lengkapi dengan GPS (Global Position System) yang memungkinkan tetap dapat memonitor keberadaan alat ini saat terbang dan dengan sistem monitor 5.8GHz video memungkinkan untuk dapat melihat setiap momen yang tertangkap kamera alat ini.
 
-      section#slide3
-        h2.jd3 Kegunaan Teknologi Drone
+        section.emphatic-text(data-bespoke-backdrop='emphatic')
+          img.responsive(src='images/elang.gif')
+          span.jenis.animated.infinite.rubberBand 
+            div Jenis Drone
 
-        abbr Helicam atau drone adalah sebuah alat unik yang bisa memotret atau merekam gambar dari ketinggian maksimal 11.000 kaki, karena alat ini memang bisa terbang. Prinsip alat ini sederhana,kamera yang di gunakan di helicam atau drone ini memang bukan kamera biasa, melainkan kamera Canon 7D DSLR, selain itu alat ini juga di lengkapi dengan GPS ( Global Position System) yang memungkinkan kita utuk tetap dapat memonitor keberadaan alat ini saat terbang, dan dengan sistem monitor 5.8 GHz video memungkinkan anda untuk dapat melihat setiap momen yang tertangkap kamera alat ini.
+          ul.poin
+            li 
+            li.span.glyphicon.glyphicon-screenshot.icon Multicopter  
+            li Keuntungan dari multicopter bisa terbang vertikal hingga 300 meter. Jenis drone ini dapat terbang selama 40 menit dengan area cover 100 - 400 hektare.
+            li.span.glyphicon.glyphicon-screenshot.icon Fixed Wing
+            li Untuk jenis fixed wing, meski bisa meliputi area yang jauh lebih luas dan terbang hingga 1.5 jam, drone ini tidak bisa terbang secara vertikal.
+    
+  script(src='build/build.js')
+  script(src='build/jquery.js')
+  script(src='build/bootstrap.min.js')
+  script(src='build/jquery.etalage.min.js')
 
-        
-      section#slide4
-        <h2 style="text-shadow: 1px 0px #ccc, 0px 1px #ccc, 2px 1px #ddd, 1px 2px #bbb, 3px 2px #ddd, 2px 3px #bbb, 4px 3px #ddd, 3px 4px #bbb, 5px 4px #ddd, 4px 5px #bbb, 6px 5px #ddd, 5px 6px #bbb, 7px 6px #ddd, 6px 7px #bbb, 8px 7px #ddd, 7px 8px #bbb, 8px 8px #ddd; font-size: 50px; color:#eee; text-align:center; text-height:font-size;color:blue;">Jenis-Jenis Drone</h2>
+  script.
+    jQuery(document).ready(function($){
+    $('#etalage').etalage({
+    thumb_image_width: 150,
+    thumb_image_height: 200,
+    show_hint: true,
+    click_callback: function(image_anchor, instance_id){
+    alert('Callback example:\\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+    }
+    });
+    // This is for the dropdown list example:
+    $('.dropdownlist').change(function(){
+    etalage_show( $(this).find('option:selected').attr('class') );
+    });
+    });
 
-        <abbr> Terdapat dua jenis drone, yaitu multicopter dan fixed wing.
-        Keuntungan dari multicopter bisa terbang vertikal hingga 300 meter,Multicopter dapat terbang selama 40 menit dengan area cover 100-400 hektare.Sedang untuk jenis fixed wing, meski bisa meliputi area yang jauh lebih luas dan terbang hingga 1,5 jam, drone ini tidak bisa terbang secara vertikal.
-        
-      section#slide5
-        
-        <h2 style="text-shadow: 1px 0px #ccc, 0px 1px #ccc, 2px 1px #ddd, 1px 2px #bbb, 3px 2px #ddd, 2px 3px #bbb, 4px 3px #ddd, 3px 4px #bbb, 5px 4px #ddd, 4px 5px #bbb, 6px 5px #ddd, 5px 6px #bbb, 7px 6px #ddd, 6px 7px #bbb, 8px 7px #ddd, 7px 8px #bbb, 8px 8px #ddd; font-size: 50px; color:#eee; text-align:center; text-height:font-size;color:blue;">Jenis Baling-Baling Drone</h2>
-        
-        ul
-          li a) 3 baling baling (3Copter)
-          li b) 4 baling baling (Quadcopter)
-          li c) 6 baling baling (HexaCopter)
-          li d) 8 Baling baling (Octacopter)
-
-      section#slide6
-        
-        <h2 style="text-shadow: 1px 0px #ccc, 0px 1px #ccc, 2px 1px #ddd, 1px 2px #bbb, 3px 2px #ddd, 2px 3px #bbb, 4px 3px #ddd, 3px 4px #bbb, 5px 4px #ddd, 4px 5px #bbb, 6px 5px #ddd, 5px 6px #bbb, 7px 6px #ddd, 6px 7px #bbb, 8px 7px #ddd, 7px 8px #bbb, 8px 8px #ddd; font-size: 50px; color:#eee; text-align:center; text-height:font-size;color:blue;">Kelebihan Drone</h2>
-
-        ul
-          li 1.Tidak perlu tenaga ahli atau pilot untuk menerbangkannya
-          li 2.Harga lebih murah dibandingkan memakai pesawat umum berawak
-          li 3.Biaya perawatan lebih terjangkau
-          li 4.Bersifat portable sehingga bisa lebih mudah dibawa kemana saja
-          li 5.Keamanan pada manusia lebih terjamin jika terjadi kesalahan sistem
-          li 6.Ukurannya kecil dan beratnya pun sangat ringan
-          li 7.Sistem navigasi yang canggih
-          li 8.Dapat merekam kejadian disekitar apabila dipasangkan kamera.
-
-      section#slide7
-        
-        <h2 style="text-shadow: 1px 0px #ccc, 0px 1px #ccc, 2px 1px #ddd, 1px 2px #bbb, 3px 2px #ddd, 2px 3px #bbb, 4px 3px #ddd, 3px 4px #bbb, 5px 4px #ddd, 4px 5px #bbb, 6px 5px #ddd, 5px 6px #bbb, 7px 6px #ddd, 6px 7px #bbb, 8px 7px #ddd, 7px 8px #bbb, 8px 8px #ddd; font-size: 50px; color:#eee; text-align:center; text-height:font-size;color:blue;">Kekurangan Drone</h2>
-
-        ul
-          li 1.Sangat rawan rusak jika terjadi badai di lautan karena ukurannya yang kecil
-          li 2.Harus orang yg mengerti untuk pengoprasiannya.
-          li 3.Tidak dapat terbang terlalu jauh dengan kontrol sistemnya.
-          li 4.Rawan rusak apabila terdapat cuaca yang buruk.
-          li 5.Memiliki energi untuk terbang yang cepat habis.
-
-
-      section
-        h2 Cara mengendalikan Drone 
-        h4 untuk yang pertama sekali menggunakan drone
-        
-        ul
-          li 
-          li 1. harus dilakukan pre fly check atau pengecekan sebelum drone diterbangkan
-          li 2. Pengecekan dilakukan mulai dari memastikan drone dalam kondisi baik dan baterai penuh, hingga pengecekan sinyal satelit yang terhubung kepada drone
-          li 3. mengecek Remote atau drone duluan yang nyala(terhubung satelit)
-          li 4. dan terus berlatih sambil didampingi oleh orang yang sudah terbiasa menerbangkan drone.
-         
-
-      section
-        h2 Bagian dari Drone
-        ul
-          li 1. PROPELLER / Prop : Adalah baling baling yang dipakai untuk memberikan daya angkat pada drone, pengendali arah, dan penyeimbang, jumlah dari propeller tersebut bervariasi ada yang yang jumlahnya 2, 3, 4, 8 dan seteterusnya
-
-          img(src='images/propeller.jpg')
-
-      section
-        h2 Bagian dari Drone
-        ul
-          li 2. RC : Remote contorol yang dipakai untuk menggerkan drone dari jarak jauh biasa di drone RC ini dipasangkan dengan device seperti smartpone, tablet , komputer yang dipakai untuk visualisasi dari drone itu sendiri dan memantau pergerakannya dari jarak jauh.
-
-          img(src='images/rccc.jpg')
-      
-
-
-      section
-        h2 Bagian dari Drone
-        ul
-          li 3. GIMBAL : Adalah system penstabil dari camera , juga sebagai penghubung antara drone dan camera bentuknya masing masing berbeda tetapi memiliki kegunaan yang sama yaitu membuat stabil pengambilan foto atau video dengan menggunakan drone sehingga guncangan dari drone, dan angin tidak membuat foto mejadi goyang atau blur.
-
-          img(src='images/Gimbal.jpg')
-
-      section
-        h2 Bagian dari Drone
-        ul
-          li 4.  CAMERA : camera yang dipkakai untuk menampilkan image yang dipakai untuk melihat, memotret, melakukan recording video
-
-          img(src='images/kamera.jpg')
-
-      section
-        h2 Bagian dari Drone
-        ul
-          li 5. LANDING SKID : kaki drone yang dipakai untuk melakukan pendaratan, bentuknya bermacam macam dan terkadang bisa digerakan naik dan turun sesuai kebutuhan 
-
-          img(src='images/landing.jpg')
-
-
-      section
-        h2 Bagian dari Drone
-        ul
-          li 6. SHOCK ABSORBER :  peredam getaran yang dipakai di drone untuk membantu memberikan keseimbagan camera sehingga teteap lurus dan stabil , tidak semuanya drone memiliki  ini tetapi didalam gimbal sudah ada fungsi ini.
-
-          img(src='images/shock.jpg')
-
-      section
-        h2 Bagian dari Drone
-        ul
-          li 7. ROTOR : dinamo pengerak dari propeller dan jumlahnya tergantung dari jenis drone itu sendiri, besaran rotornya juga tergantung dari besar kecilnya drone
-
-          img(src='images/rotor.jpg')
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Jenis Baling-Baling Drone
-        
-        ul
-          <li> a) 3 baling baling (3Copter) </li>
-          li b) 4 baling baling (Quadcopter)
-          li c) 6 baling baling (HexaCopter)
-          li d) 8 Baling baling (Octacopter)
-
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Kegunaan Dari Drone
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section
-        h2 Fungsi dari Drone
-        
-        ul
-          li 
-          li 1. Berfungsi untuk misi penyelamatan (Bencana Alam atau Korban tragedi)
-          li 2. Untuk Fotografi dan membuat film
-          li 3. Untuk bisnis (misalnya bisnis pengantaran barang)
-          li 4. Untuk misi pengintaian (biasanya dilakukan oleh militer)
-          li 5. Untuk penelitian
-          li 6. Untuk kepentingan Jurnalisme
-          li 7. Sebagai alat pembantu perawatan Insfrastruktur       
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
-
-    script(src='build/build.js')
-    script(src='build/bootstrap.min.js')
+  
+  
