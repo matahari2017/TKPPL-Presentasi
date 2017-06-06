@@ -100,3 +100,13 @@ Sprint 3
 	2. Menambahkan fitur 'magnifier' untuk memperbesar [zoom] gambar
 	   saat mouse berada pada gambar
 
+[Hana Girsang]
+	1. Mengupdate materi dari slide presentasi
+	   {Jenis baling-baling drone}
+
+6 Juni - 7 Juni
+[Noel Anugerah Tel]
+	1. Mempercantik tampilan slide dari judul sub bab materi
+
+
+
