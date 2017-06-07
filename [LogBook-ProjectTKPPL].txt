@@ -107,6 +107,9 @@ Sprint 3
 6 Juni - 7 Juni
 [Noel Anugerah Tel]
 	1. Mempercantik tampilan slide dari judul sub bab materi
+	2. Mengupdate materi dari slide presentasi
+	   {Arah & Gerakan Drone}
+	   {Sejarah singkat}
 
 
 
