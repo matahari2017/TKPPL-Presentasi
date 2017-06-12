@@ -111,5 +111,10 @@ Sprint 3
 	   {Arah & Gerakan Drone}
 	   {Sejarah singkat}
 
+10 Juni - 12 Juni
+[Noel Anugerah Tel]
+	1. Mengupdate materi akhir dari presentasi
+	2. Mempercantik tampilan akhir slide
+
 
 
